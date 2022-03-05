@@ -1,0 +1,130 @@
+#products_header {
+  text-align: center;
+  font-size: 32px;
+  color: #000;
+}
+
+#products_header p {
+  padding-top: 20px;
+}
+
+#Product_row1 {
+  text-align: center;
+  margin-left: 5%;
+}
+
+#Product_row2 {
+  text-align: center;
+}
+
+#Product_col1 {
+  margin-bottom: 24px;
+}
+
+#Product_card1 {
+  border: none;
+  width: 18rem;
+  text-align: center;
+}
+
+#Product_card1 h5 {
+  font-size: 16px;
+  color: #4200AC;
+}
+
+#Product_col2 {
+  margin-bottom: 24px;
+}
+
+#Product_card2 {
+  border: none;
+  width: 18rem;
+}
+
+#Product_card2 h5 {
+  font-size: 16px;
+  color: #4200AC;
+}
+
+#Product_col3 {
+  margin-bottom: 24px;
+}
+
+#Product_card3 {
+  border: none;
+  width: 18rem;
+}
+
+#Product_card3 h5 {
+  font-size: 16px;
+  color: #4200AC;
+}
+
+#Product_col4 {
+  margin-bottom: 24px;
+}
+
+#Product_card4 {
+  border: none;
+  width: 18rem;
+}
+
+#Product_card4 h5 {
+  font-size: 16px;
+  color: #4200AC;
+}
+
+#Product_col5 {
+  margin-bottom: 24px;
+}
+
+#Product_card5 {
+  border: none;
+  width: 18rem;
+}
+
+#Product_card5 h5 {
+  font-size: 16px;
+  color: #4200AC;
+}
+
+#Product_col6 {
+  margin-bottom: 24px;
+}
+
+#Product_card6 {
+  border: none;
+  width: 18rem;
+}
+
+#Product_col7 {
+  margin-bottom: 24px;
+}
+
+#Product_card7 {
+  border: none;
+  width: 18rem;
+}
+
+#Product_col8 {
+  margin-bottom: 24px;
+}
+
+#Product_card8 {
+  border: none;
+  width: 18rem;
+}
+
+#Product_card8 h5 {
+  font-size: 16px;
+  color: #4200AC;
+}
+
+
+
+
+
+
+
+
+/* <p class="footer-company-name">Copyright © 2022 CICADA SOFT & SOLUTION Ltd. All Rights Reserved</p> */

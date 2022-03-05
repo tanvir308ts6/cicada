@@ -25,9 +25,11 @@ import { SliderComponent } from './slider/slider.component';
   ],
   exports: [
     HomeComponent,
+    AboutusComponent,
+    ProductsComponent,
     NavComponent,
     HeaderTopComponent,
-    SliderComponent
+    SliderComponent,
 
   ]
 })
