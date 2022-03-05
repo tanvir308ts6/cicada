@@ -5,6 +5,8 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { ProductsComponent } from './products/products.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
+import { HeaderTopComponent } from './header-top/header-top.component';
+import { SliderComponent } from './slider/slider.component';
 
 
 
@@ -14,14 +16,18 @@ import { FooterComponent } from './footer/footer.component';
     AboutusComponent,
     ProductsComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    HeaderTopComponent,
+    SliderComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
     HomeComponent,
-    NavComponent
+    NavComponent,
+    HeaderTopComponent,
+    SliderComponent
 
   ]
 })
