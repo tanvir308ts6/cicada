@@ -9,8 +9,8 @@
 }
 
 #Product_row1 {
-  text-align: center;
-  margin-left: 5%;
+
+
 }
 
 #Product_row2 {
@@ -19,17 +19,21 @@
 
 #Product_col1 {
   margin-bottom: 24px;
+  text-align: center;
 }
 
 #Product_card1 {
   border: none;
-  width: 18rem;
+  text-align: center;
+  /* width: 18rem; */
+}
+#Product_body_card1{
   text-align: center;
 }
-
-#Product_card1 h5 {
+#Product_card1 h5{
   font-size: 16px;
   color: #4200AC;
+  text-align: center;
 }
 
 #Product_col2 {
@@ -38,9 +42,11 @@
 
 #Product_card2 {
   border: none;
-  width: 18rem;
+  /* width: 18rem; */
 }
-
+#Product_body_card2{
+  text-align: center;
+}
 #Product_card2 h5 {
   font-size: 16px;
   color: #4200AC;
@@ -52,9 +58,11 @@
 
 #Product_card3 {
   border: none;
-  width: 18rem;
+  /* width: 18rem; */
 }
-
+#Product_body_card3{
+  text-align: center;
+}
 #Product_card3 h5 {
   font-size: 16px;
   color: #4200AC;
@@ -66,9 +74,11 @@
 
 #Product_card4 {
   border: none;
-  width: 18rem;
+  /* width: 18rem; */
 }
-
+#Product_body_card4{
+  text-align: center;
+}
 #Product_card4 h5 {
   font-size: 16px;
   color: #4200AC;
@@ -80,9 +90,11 @@
 
 #Product_card5 {
   border: none;
-  width: 18rem;
+  /* width: 18rem; */
 }
-
+#Product_body_card5{
+  text-align: center;
+}
 #Product_card5 h5 {
   font-size: 16px;
   color: #4200AC;
@@ -112,14 +124,33 @@
 
 #Product_card8 {
   border: none;
-  width: 18rem;
+  /* width: 18rem; */
 }
-
+#Product_body_card8{
+  text-align: center;
+}
 #Product_card8 h5 {
   font-size: 16px;
   color: #4200AC;
 }
+/* @media only screen and (max-width: 1280px) {
+  #Product_row1 {
+    margin-left: 1%;
 
+  }
+}
+@media only screen and (max-width: 1024px) {
+  #Product_row1 {
+    margin-left: -1.2%;
+
+  }
+}
+@media only screen and (max-width: 412px) {
+  #Product_row1 {
+    margin-left: 10%;
+
+  }
+} */
 
 
 

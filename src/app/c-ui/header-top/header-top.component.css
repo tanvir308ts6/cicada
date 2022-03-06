@@ -4,7 +4,7 @@ height: 120px;
 }
 #midia_content_icon{
   color: #4200AC;
-  font-size:16px;
+  font-size:18px;
   padding-top: 15px;
   text-align: right;
 }
@@ -29,13 +29,29 @@ height: 120px;
   text-align: left;
 }
 
-#midia_content_links a{
-  display: flex;
-  font-size:14px;
+#midia_content_links1{
+  padding-left:10px;
+  font-size:16px;
   text-decoration: none;
   color: #4200AC;
 }
 
 #midia_content_links2{
 padding-top: 12px;
+}
+
+@media only screen and (max-width: 412px) {
+  #icon_content{
+    padding-top: 0;
+    text-align: left;
+  }
+  #midia_content_icon{
+    padding-top: 0;
+    font-size:18px;
+  }
+  #midia_content_links1{
+    padding-left:10px;
+    font-size:18px;
+    text-align: left;
+  }
 }
