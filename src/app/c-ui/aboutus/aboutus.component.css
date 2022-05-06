@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-#abutus_head {
+.about_header{
+  text-align: center;
+}
+.about_header h1{
+  font-weight: bolder;
+}
+/* #abutus_head {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-size: 32px;
   font-weight: bolder;
-}
+  margin-top:40px;
+} */
 
 /* overlay */
 .container {
@@ -49,4 +55,5 @@
 
 #about_us_description{
 text-align: justify;
+padding:20px;
 }
