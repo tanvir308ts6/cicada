@@ -7,7 +7,7 @@ import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderTopComponent } from './header-top/header-top.component';
 import { SliderComponent } from './slider/slider.component';
-
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 
 @NgModule({
@@ -21,7 +21,8 @@ import { SliderComponent } from './slider/slider.component';
     SliderComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatToolbarModule
   ],
   exports: [
     HomeComponent,

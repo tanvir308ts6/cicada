@@ -1,5 +1,16 @@
-#navbar{
+#toolbar{
+  color:#000;
   /* background-color: #4200AC; */
   /* background-color: transparent; */
-  background-image: linear-gradient( 83.2deg,  rgb(105, 33, 212) 10.8%, rgb(49, 40, 185) 94.3% );
+  /* background-image: linear-gradient( 83.2deg,  rgb(105, 33, 212) 10.8%, rgb(49, 40, 185) 94.3% ); */
+  /* background-color: #fff; */ 
+
+}
+#logo{
+  padding-top: 10px;
+  height: 120px;
+  }
+#navbarSupportedContent{
+  margin-left: 54px;
+  color: #000;
 }

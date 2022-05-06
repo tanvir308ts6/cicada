@@ -1,16 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-#abutus_head {
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 32px;
-  font-weight: bolder;
-}
-
 /* overlay */
-.container {
+#about_comtainer {
   position: relative;
-  width: 100%;
 }
 
 .image {
@@ -24,7 +14,9 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  /* background-color: #979797; */
+  background: rgba(17, 30, 148, 0.603);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   width: 0;
   height: 100%;
@@ -36,9 +28,11 @@
 }
 
 .text {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 20px;
   position: absolute;
+  border: 1px solid #fff;
+  background-color:transparent;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -47,6 +41,9 @@
   white-space: nowrap;
 }
 
-#about_us_description{
+
+
+/* about_us_description */
+#about_us_description p{
 text-align: justify;
 }
