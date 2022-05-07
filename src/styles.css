@@ -751,10 +751,22 @@ ul.slick-dots {
 }
 
 .contact-us {
-	background-color: #502bb4;
+	background-color: #201d27;
+	/* background-image: url(/assets/image/page-heading-bg.jpg); */
+  opacity: 0.7px;
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding: 140px 0px;
 }
-
+#contact{
+  margin-top: 100px;
+}
+#contact_img {
+background-image: url(/assets/image/con1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
 .contact-us .contact-form {
 	background-color: transparent!important;
 	padding: 0!important;
