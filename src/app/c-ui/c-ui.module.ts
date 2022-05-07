@@ -11,6 +11,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { ContactComponent } from './contact/contact.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { CUiRoutingModule } from './c-ui-routing.module';
+import { ServicesComponent } from './services/services.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { CUiRoutingModule } from './c-ui-routing.module';
     HeaderTopComponent,
     SliderComponent,
     ContactComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    ServicesComponent
   ],
   imports: [
     CommonModule,
