@@ -8,6 +8,9 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderTopComponent } from './header-top/header-top.component';
 import { SliderComponent } from './slider/slider.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { ContactComponent } from './contact/contact.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { CUiRoutingModule } from './c-ui-routing.module';
 
 
 @NgModule({
@@ -18,11 +21,14 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     NavComponent,
     FooterComponent,
     HeaderTopComponent,
-    SliderComponent
+    SliderComponent,
+    ContactComponent,
+    LandingPageComponent
   ],
   imports: [
     CommonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    CUiRoutingModule
   ],
   exports: [
     HomeComponent,
