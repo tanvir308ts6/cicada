@@ -4,6 +4,9 @@
 .product_header h1{
   font-weight: bolder;
 }
+#products{
+  margin-bottom:60px;
+}
 /* overlay */
 .ovarlay_image {
   position: relative;

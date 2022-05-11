@@ -13,6 +13,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { CUiRoutingModule } from './c-ui-routing.module';
 import { ServicesComponent } from './services/services.component';
 import { QuoteComponent } from './quote/quote.component';
+import { TeamComponent } from './team/team.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { QuoteComponent } from './quote/quote.component';
     ContactComponent,
     LandingPageComponent,
     ServicesComponent,
-    QuoteComponent
+    QuoteComponent,
+    TeamComponent
   ],
   imports: [
     CommonModule,
