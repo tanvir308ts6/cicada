@@ -4,20 +4,20 @@
   font-family: Open Sans;
 }
 
-section {
+/* section {
   width: 100%;
   display: inline-block;
-  background: #333;
+  background: #5d13d4;
   height: 50vh;
   text-align: center;
   font-size: 22px;
   font-weight: 700;
   text-decoration: underline;
-}
+} */
 
 .footer-distributed{
-	background: #666;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	background: #4b07b8;
+	box-shadow: 0 1px 1px 0 rgb(255, 255, 255);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
@@ -67,7 +67,7 @@ section {
 }
 
 .footer-distributed .footer-company-name{
-	color:  #222;
+	color:  rgb(255, 255, 255);
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
@@ -80,7 +80,7 @@ section {
 }
 
 .footer-distributed .footer-center i{
-	background-color:  #33383b;
+	background-color:  #4b07b8;
 	color: #ffffff;
 	font-size: 25px;
 	width: 38px;
@@ -162,7 +162,7 @@ section {
 	width: 35px;
 	height: 35px;
 	cursor: pointer;
-	background-color:  #33383b;
+	background-color:  #4b07b8;
 	border-radius: 2px;
 
 	font-size: 20px;

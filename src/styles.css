@@ -8,6 +8,7 @@ body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: rgb(255, 255, 255);
 }
 
 
@@ -1294,14 +1295,12 @@ footer .contact-form button.filled-button:hover {
 #tabs ul li a {
   text-transform: capitalize;
   width: 100%;
-  padding: 30px 30px;
+  padding: 14px 14px;
   display: inline-block;
-  background-color: #5d13d4;
-  font-size: 18px;
+  background-color: rgba(76, 34, 124, 0.78);
   color: #ffffff;
   letter-spacing: 0.5px;
-  font-weight: 700;
-  transition: all 0.3s;
+  transition: all 0.25s;
 }
 
 #tabs ul li a i {
